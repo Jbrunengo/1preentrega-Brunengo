@@ -1,0 +1,6 @@
+.Controls{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-evenly;
+}

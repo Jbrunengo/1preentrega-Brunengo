@@ -1,10 +1,11 @@
 import carrito  from './assets/carrito.png'
+import './CartWidget.css'
 
 const CartWidget =() =>{
     return (
-        <div>
-            <img src={carrito} />
-            51
+        <div className='cart'>
+            <img className='carrito' src={carrito} />
+            50
         </div>
     )
 }
